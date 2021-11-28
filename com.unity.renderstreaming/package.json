@@ -1,7 +1,7 @@
 {
-  "name": "com.fusedvr.unityrenderstreaming",
+  "name": "com.fusedvr.renderstreaming",
   "displayName": "Unity Render Streaming",
-  "version": "3.1.0-exp.2",
+  "version": "3.1.2",
   "unity": "2019.4",
   "description": "This is a package for using Unity Render Streaming technology. It contains two samples to use the technology.",
   "dependencies": {
@@ -14,5 +14,11 @@
       "description": "RenderStreaming sample",
       "path": "Samples~/Example"
     }
-  ]
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
